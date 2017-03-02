@@ -1,0 +1,135 @@
+@import url("../../css/base.css");
+/*头*/
+nav{
+	height: 0.80rem;
+	width: 100%;
+	background-color: #01C690;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#title{
+	height: 100%;
+	text-align: center;
+	line-height: 0.80rem;
+	font-weight: 400;
+	color: #fff;
+}
+
+#ret{
+	width: 0.20rem;
+	height: 100%;
+	background: url(../../imgs/fanhui.png) no-repeat left center;
+	background-size: 0.20rem 0.32rem;
+	position: absolute;
+	left: 8%;
+	top: 0;
+	line-height: 0.80rem;
+	color: #000;
+}
+
+/*单元练习*/
+#uPracticeP{
+	width: 100%;
+	position: absolute;
+	top: 0.80rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #F0F0F2;
+}
+
+/*标题*/
+#uPracticeP .title{
+	width: 100%;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	background: #fff;
+	margin-top: 0.02rem;
+	position: relative;
+}
+#uPracticeP .title h3{
+	width: 3.5rem;
+	font-size: 0.28rem;
+	color: #333;
+	text-align: left;
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding-left: 0.4rem;
+	background: url(../../imgs/zhangjie.png) no-repeat left center;
+	background-size: 0.30rem 0.30rem;
+	overflow: hidden;
+}
+
+/*列表*/
+#uPracticeP .count-box{
+	width: 100%;
+	height: auto;
+}
+#uPracticeP .count-box ul{
+	width: 100%;
+	margin: 0 auto;
+}
+#uPracticeP .count-box li{
+	width: 100%;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	margin-bottom: 0.1rem;
+	padding: 0 0.32rem 0.2rem;
+	background: #fff;
+	margin-bottom: 0.03rem;
+}
+#uPracticeP .count-box li .name,#uPracticeP .count-box li .counts{
+	width: 40%;
+	height: 100%;
+	font-size: 0.26rem;
+	font-weight: normal;
+	float: left;
+	color: #666;
+}
+#uPracticeP .count-box li .counts{
+	width: 20%;
+}
+#uPracticeP .count-box li a{
+	float: right;
+	height: 0.64rem;
+	width: 40%;
+	color: #f23030;
+	text-align: right;
+	padding-right: 0.35rem;
+	font-size: 0.25rem;
+	background: url(../../imgs/lianxi.png) no-repeat right center;
+	background-size: 0.21rem 0.24rem;
+}
+
+/*按钮*/
+#uPracticeP .btn{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#uPracticeP .btn button{
+	width: 50%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	font-size: 0.28rem;
+	float: left;
+	background-color: #00C790;
+	color: #fff;
+	border: none;
+}
+#uPracticeP .btn button:nth-of-type(1){
+	border-right: 1px solid #F0F0F2;
+}
+/*单元练习*/

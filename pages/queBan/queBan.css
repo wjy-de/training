@@ -1,0 +1,222 @@
+@import url("../../css/base.css");
+/*头*/
+nav{
+	height: 0.83rem;
+	width: 100%;
+	background-color: #01C690;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#title{
+	height: 100%;
+	text-align: center;
+	line-height: 0.83rem;
+	font-size: 0.30rem;
+	font-weight: 400;
+	color: #fff;
+}
+
+#ret{
+	width: 0.20rem;
+	height: 100%;
+	background: url(../../imgs/fanhui.png) no-repeat left center;
+	background-size: 0.20rem 0.32rem;
+	position: absolute;
+	left: 8%;
+	top: 0;
+	line-height: 1rem;
+	color: #000;
+}
+
+
+#queBanP{
+	width: 100%;
+	position: absolute;
+	top: 0.83rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #F0F0F2;
+}
+/*类别*/
+#queBanP .sel{
+	width: 100%;
+	height: auto;
+}
+#queBanP .type{
+	width: 100%;
+	height: 0.86rem;
+	margin-bottom: 0.04rem;
+	line-height: 0.86rem;
+	background-color: #fff;
+	margin-top: 0.02rem;
+	margin-bottom: 0.05rem;
+	position: relative;
+}
+#queBanP .type .left,#queBanP .type .right{
+	width: 50%;
+	height: 100%;
+	float: left;
+	line-height: 0.86rem;
+}
+#queBanP .type .left i{
+	display: block;
+	width: 0.46rem;
+	height: 100%;
+	float: left;
+	margin-left: 0.32rem;
+	background: url(../../imgs/leibie-.png) no-repeat left center;
+	background-size: 0.3rem 0.3rem;
+}
+#queBanP .type .left span{
+	float: left;
+	font-size: 0.28rem;
+	color: #3F3F3F;
+}
+#queBanP .type .right i{
+	display: block;
+	width: 0.38rem;
+	height: 100%;
+	float: right;
+	margin-right: 0.32rem;
+	background: url(../../imgs/fangxiang.png) no-repeat right center;
+	background-size: 0.15rem 0.26rem;
+}
+#queBanP .type .right span{
+	float: right;
+	font-size: 0.28rem;
+	color: #3F3F3F;
+}
+#queBanP .type .tName{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 2;
+	border-top: 1px solid #F0F0F2;
+	display: none;
+}
+/*点击类别显示*/
+#queBanP .type .show{
+	display: block;
+}
+
+#queBanP .type .tName li{
+	width: 7.5rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	background-color: #fff;
+	border-bottom: 1px solid #F0F0F2;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #3F3F3F;
+}
+#queBanP .law{
+	margin: 0 0.02rem;
+}
+#queBanP .law .left i{
+	background-image: url(../../imgs/falv.png);
+	background-size: 0.34rem 0.32rem;
+}
+
+/*目录*/
+#queBanP .container{
+	width: 100%;
+	position: absolute;
+	top: 1.9rem;
+	right: 0;
+	bottom: 1rem;
+	left: 0;
+}
+#queBanP .container .dir-box{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	margin: 0 auto;
+}
+#queBanP .container .dir-box ul{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+#queBanP .container .dir-box ul li{
+	width: 7.32rem;
+	height: 0.62rem;
+	line-height: 0.62rem;
+	text-align: left;
+	overflow: hidden;
+	margin-left: 0.18rem;
+	padding-left: 0.18rem;
+	border-top: 1px solid #DADADA;
+	position: relative;
+}
+#queBanP .container .dir-box ul li:nth-of-type(1){
+	border-top: none;
+}
+#queBanP .container .dir-box ul li span{
+	float: left;
+	width: 0.72rem;
+	height: 0.28rem;
+	background: #CE2929;
+	text-align: center;
+	line-height: 0.28rem;
+	margin:0.16rem 0.18rem 0.16rem 0;
+	font-size: 0.18rem;
+	border-radius: 0.2rem;
+	color: #fff;
+}
+#queBanP .container .dir-box ul li h3{
+	float: left;
+	width: 4rem;
+	height: 100%;
+	text-align: left;
+	font-size: 0.18rem;
+	color: #333;
+	font-size: 0.26rem;
+	font-weight: normal;
+}
+#queBanP .container .dir-box ul li .into{
+	position: absolute;
+	right: 0.32rem;
+	top: 0;
+	bottom: 0;
+	width: 0.32rem;
+	height: 100%;
+	background: url(../../imgs/wenjian.png) no-repeat right center;
+	background-size: 0.32rem 0.22rem;
+}
+
+/*提示*/
+#queBanP .prompyt{
+	width: 100%;
+	height: 0.64rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	line-height: 0.64rem;
+	padding: 0 0.32rem 0 0.76rem;
+	background: #fff;
+}
+#queBanP .prompyt span,#queBanP .prompyt a{
+	font-size: 0.28rem;
+	color: #484848;
+	overflow: hidden;
+}
+#queBanP .prompyt a{
+	color: #00C790;
+}
+#queBanP .prompyt .icon{
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0.34rem;
+	width: 0.42rem;
+	height: 100%;
+	background: url(../../imgs/jilu-.png) no-repeat left center;
+	background-size: 0.28rem 0.31rem;
+}
+

@@ -1,0 +1,15 @@
+app.config(['$routeProvider',function($routeProvider){
+	$routeProvider.when('/',{
+		templateUrl:'pages/login/login.html',
+		controller:'loginCtrl'
+	}).when('/queBan',{
+		templateUrl:'pages/queBan/queBan.html',
+		controller:'queBanCtrl'
+	}).when('/uPractice',{
+		templateUrl:'pages/uPractice/uPractice.html',
+		controller:'uPracticeCtrl'
+	}).when('/detail',{
+		templateUrl:'pages/detail/detail.html',
+		controller:'detailCtrl'
+	})
+}])

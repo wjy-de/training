@@ -1,0 +1,21 @@
+{
+  "app.html": {
+    "resources": [
+      "css/base.css",
+      "js/jquery.min.js",
+      "pages/uPractice/uPractice.js",
+      "component/header/header.css",
+      "app.js",
+      "js/angular.min.js",
+      "config.js",
+      "pages/detail/detail.js",
+      "pages/queBan/queBan.js",
+      "pages/login/login.css",
+      "pages/queBan/queBan.css",
+      "pages/detail/detail.css",
+      "pages/login/login.js",
+      "js/angular-route.min.js",
+      "pages/uPractice/uPractice.css"
+    ]
+  }
+}
